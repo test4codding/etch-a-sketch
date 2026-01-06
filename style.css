@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #000000b0;
+    background-color: rgba(0, 0, 0, 0.69);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,15 +17,22 @@ body{
     border: solid black 5px;
     width:512px;
     height: 512px;
-    background-color: white;    
+    background-color: rgb(255, 255, 255);    
 }
-.grid-size-btn {
+.grid-size-btn,
+.random-color-btn,
+.opacity-btn {
     padding: 8px;
     font-size: 16px;
     border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-active {
+    background-color: #2e2e2e;
+    color: white;
 }
 
 .title{
     font-size: 48px;
 }
-
